@@ -20,11 +20,11 @@ module.exports = {
 
         if (memberPermissions.includes("MANAGE_CHANNELS") || message.author.id == 250029754076495874) {
             if (saveJson.servers[guild.id].ad == true) {
-                saveJson.servers[guild.id].ad = false
+                saveJson.servers[guild.id].ad = false;
             } else {
-                saveJson.servers[guild.id].ad = true
+                saveJson.servers[guild.id].ad = true;
             }
-            console.log(saveJson.servers[guild.id].ad)
+            console.log(saveJson.servers[guild.id].ad);
 
             var save = JSON.stringify(saveJson);
             fs.writeFileSync('./data.json', save);
