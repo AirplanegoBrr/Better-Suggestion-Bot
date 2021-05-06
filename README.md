@@ -1,4 +1,4 @@
-# Better-Suggestion-Bot (Worse)
+# Better-Suggestion-Bot
 
 ## The Devs:
 
