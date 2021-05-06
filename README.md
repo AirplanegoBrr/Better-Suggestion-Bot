@@ -2,13 +2,13 @@
 
 ## The Devs:
 
-### AirplaneGoBrr
+### [AirplaneGoBrr](https://github.com/AirplaneGoBrr)
 
 - 15
 
 - Writes most the code
 
-### Skellt_en
+### [AdrianBSSYT](https://github.com/AdrianBSSYT)
 
 - 14
 
@@ -24,9 +24,11 @@
 
 # Plans
 
-- Add prefix control to servers
+[ ] Add prefix control to servers
 
-- Add more ; 😎
+[ ] Add more ; 😎 
+<!-- [x] Is supposed to be a checkbox but only shows up on github -->
+<!-- [ ] Is a unchecked checkbox -->
 
 # Updates
 
