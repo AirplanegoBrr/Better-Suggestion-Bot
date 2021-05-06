@@ -3,7 +3,7 @@ const fs = require("fs")
 module.exports = {
     name: 'suggest',
     description: 'Stops the bot',
-    execute(client, Discord, message, args, user, member, guild, memberPermissions) {
+    execute(client, Discord, message, guild) {
         var rawdata = fs.readFileSync('./data.json');
         //Use
         var data = JSON.parse(rawdata);
