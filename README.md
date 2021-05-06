@@ -1,5 +1,23 @@
 # Better-Suggestion-Bot
 
+## The Devs:
+
+### AirplaneGoBrr
+
+- 15
+
+- Writes most the code
+
+### Skellt_en
+
+- 14
+
+- Spams 2's in the live share chat 
+
+- ♥✈
+
+
+
 
 # Plans
 
