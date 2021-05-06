@@ -1,5 +1,14 @@
 # Better-Suggestion-Bot
 
+
+# Plans
+
+- Add prefix control to servers
+
+- Add more ; 😎
+
+# Updates
+
 Update 0.1.0
 
 Added bot to github! Pog
