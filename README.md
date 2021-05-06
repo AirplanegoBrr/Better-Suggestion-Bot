@@ -1,4 +1,4 @@
-# Better-Suggestion-Bot
+# Better-Suggestion-Bot (Worse)
 
 ## The Devs:
 
@@ -14,10 +14,13 @@
 
 - Spams 2's in the live share chat 
 
-- ♥✈
+- ♥ ✈
 
+- Made the logo
 
+### [Devflock](https://github.com/DevFlock)
 
+- Just added semicolons
 
 # Plans
 

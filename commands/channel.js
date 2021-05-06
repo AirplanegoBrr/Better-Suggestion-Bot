@@ -7,8 +7,8 @@ module.exports = {
         const memberPermissions = message.member.permissions.toArray();
         console.log(memberPermissions)
         if (!memberPermissions.includes("MANAGE_CHANNELS") || !message.author.id==250029754076495874){
-            message.channel.send("Error! You do not have MANAGE_CHANNELS permission!")
-            return
+            message.channel.send("Error! You do not have MANAGE_CHANNELS permission!");
+            return;
         };
 		var rawdata = fs.readFileSync('./data.json');
         //Use
@@ -22,10 +22,10 @@ module.exports = {
         }else{
             saveJson.servers[guild.id] = {}
         }
-        saveJson.servers[guild.id].suggestChannel = message.mentions.channels.first().id
-        console.log(saveJson)
+        saveJson.servers[guild.id].suggestChannel = message.mentions.channels.first().id;
+        console.log(saveJson);
         var save = JSON.stringify(saveJson);
-        fs.writeFileSync('./data.json', save);
-        message.channel.send("Set suggest channel to: <#"+saveJson.servers[guild.id].suggestChannel+">")
+        fs.writeFileSync('./data.json', save); // Ctrl + a delete
+        message.channel.send("Set suggest channel to: <#"+saveJson.servers[guild.id].suggestChannel+">");
 	},
 };
