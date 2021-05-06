@@ -9,12 +9,12 @@
 
 # Updates
 
-Update 0.1.0
+## Update 0.1.0
 
 Added bot to github! Pog
 
 
-Update 0.1.1
+## Update 0.1.1
 
 Updated index.js and now it is 32 lines of code!
 
