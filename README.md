@@ -12,6 +12,8 @@
 
 ### Update 0.1.1.1
 
+small update
+
 - Bot will now warn you if you dont ping a channel
 
 ## Update 0.1.1
