@@ -1,16 +1,8 @@
 module.exports = {
     name: 'message',
     execute(message, client) {
-        const { token, prefix, owner } = require("../config.json")
+        const { token, prefix, owner, debugMode } = require("../config.json")
         const Discord = require('discord.js');
-        /*
-        if (debugMode == 1) {
-            console.log(args);
-            console.log(command);
-            console.log(member);
-            console.log(guild);
-        }
-        */
         if (message.author.bot) return;
         if (message.guild === null) {
             message.channel.send("Im sorry **BUT** this bot only works in servers! Have a good day!");
@@ -20,6 +12,13 @@ module.exports = {
         const command = args.shift().toLowerCase();
         const member = message.author;
         const guild = message.guild;
+
+        if (debugMode == 1) {
+            console.log(args);
+            console.log(command);
+            console.log(member);
+            console.log(guild);
+        }
 
         if (message.content == "<@!" + client.user.id + ">") {
             client.commands.get("help").execute(client, Discord, message, guild);
@@ -35,7 +34,7 @@ module.exports = {
         } catch (error) {
             console.error(error);
             if (command == "channel"){
-                message.reply("Oh no! Something went worng! Did you ping a channel and can I see the channel??")
+                message.reply("Oh no! Something went wrong! Did you ping a channel and can I see the channel??")
             }else{
             message.reply(`there was an error trying to execute that command!`);
             }
