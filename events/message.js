@@ -34,7 +34,11 @@ module.exports = {
             client.commands.get(command).execute(client, Discord, message, guild);
         } catch (error) {
             console.error(error);
+            if (command == "channel"){
+                message.reply("Oh no! Something went worng! Did you ping a channel and can I see the channel??")
+            }else{
             message.reply(`there was an error trying to execute that command!`);
+            }
         }
     },
 };
