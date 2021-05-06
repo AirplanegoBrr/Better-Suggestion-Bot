@@ -24,3 +24,7 @@ Updated index.js and now it is 32 lines of code!
 - Added Message.js that will handle messages
 
 - Bot will also now send the help command when it is pinged :D
+
+- Ready event now in event folder
+
+- Removed NotUsed.txt from events folder
