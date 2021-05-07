@@ -23,7 +23,7 @@ module.exports = {
             .setTimestamp()
             .setFooter('Bot by !!AirplaneGoBrr!!#1613', 'https://cdn.discordapp.com/avatars/250029754076495874/bdf3953b71edb421776e43d24e7651fe.webp');
 
-
+        console.log(saveJson.servers[guild.id].suggestChannel)
         guild.channels.cache.get(saveJson.servers[guild.id].suggestChannel).send(exampleEmbed)
             .then(function (message) {
                 message.react("👍")

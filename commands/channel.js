@@ -6,7 +6,7 @@ module.exports = {
 	execute(client, Discord, message, guild) {
         const memberPermissions = message.member.permissions.toArray();
         console.log(memberPermissions)
-        if (!memberPermissions.includes("MANAGE_CHANNELS") || !message.author.id==250029754076495874){
+        if (!memberPermissions.includes("MANAGE_CHANNELS") || !message.author.id=="250029754076495874"){
             message.channel.send("Error! You do not have MANAGE_CHANNELS permission!");
             return;
         };

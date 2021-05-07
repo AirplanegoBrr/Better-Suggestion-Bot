@@ -1,8 +1,7 @@
 module.exports = {
     name: 'message',
-    execute(message, client) {
+    execute(message, client, Discord) {
         const { token, prefix, owner, debugMode } = require("../config.json");
-        const Discord = require('discord.js');
         if (message.author.bot) return;
         if (message.guild === null) {
             message.channel.send("Im sorry **BUT** this bot only works in servers! Have a good day!");
