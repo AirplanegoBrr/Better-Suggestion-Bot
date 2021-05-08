@@ -18,10 +18,12 @@ module.exports = {
         //Will add old data so we can edit it
         var saveJson = data;
         
-        if (saveJson.servers[guild.id]){
+        if (saveJson.servers){
         }else{
+            saveJson.servers = {}
             saveJson.servers[guild.id] = {}
         }
+        
         saveJson.servers[guild.id].suggestChannel = message.mentions.channels.first().id;
         console.log(saveJson);
         var save = JSON.stringify(saveJson);
