@@ -14,11 +14,11 @@ module.exports = {
                 //{ name: '\u200B', value: '\u200B' },
                 //{ name: 'Inline field title', value: 'Some value here', inline: true },
                 //{ name: 'Inline field title', value: 'Some value here', inline: true },
-                { name: "help" , value: "Shows this message!"},
-                { name: "suggest", value: "Suggest an suggestion"},
-                { name: "ping", value: "Get the bot ping (Its a little broken)"},
-                { name: "Admin commands:"},
-                { name: "channel", value: "Set the suggestion channel"}
+                { name: "help" , value: "Shows this message!", inline: true },
+                { name: "suggest", value: "Suggest an suggestion", inline: true },
+                { name: "ping", value: "Get the bot ping (Its a little broken)" },
+                { name: "Admin commands:", inline: true },
+                { name: "channel", value: "Set the suggestion channel", inline: true }
 
             )
             //.setImage('https://i.imgur.com/wSTFkRM.png')
