@@ -32,6 +32,11 @@
 
 # Updates
 
+## Update 0.1.2
+
+"Small" update
+
+- Added embed to help command
 
 ### Update 0.1.1.1
 
